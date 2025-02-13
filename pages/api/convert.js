@@ -2,7 +2,8 @@ const YAML = require("yaml");
 const axios = require("axios");
 
 module.exports = async (req, res) => {
-  const url = req.query.url;
+  // const url = req.query.url;
+  const url = "http://106.75.143.245:3390/api/v1/client/subscribe?token=c20b5cfed65efb0135ffa0f559ad8962"
   const target = req.query.target;
   console.log(`query: ${JSON.stringify(req.query)}`);
   if (url === undefined) {
