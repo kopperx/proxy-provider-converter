@@ -3,7 +3,7 @@ const axios = require("axios");
 
 module.exports = async (req, res) => {
   // const url = req.query.url;
-  const url = "https://sub-1.smjcdh.top/smjc/api/v1/client/subscribe?token=0450f5818226e42863d5ee29a8936f2f"
+  const url = "https://sub-1.smjcdh.top/smjc/api/v1/client/subscribe?token=2099f78fe6cb3dc437970d3dd87eef28"
   const target = req.query.target;
   console.log(`query: ${JSON.stringify(req.query)}`);
   if (url === undefined) {
